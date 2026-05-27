@@ -1,0 +1,134 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alert-eta-service
+  namespace: ml
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alert-eta-service
+  template:
+    metadata:
+      labels:
+        app: alert-eta-service
+    spec:
+      containers:
+        - name: api
+          image: alert-eta-service:v2
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          env:
+            - name: MODEL_DIR
+              value: "/models"
+            - name: TYPE_CONF_THRESHOLD
+              value: "0.6"
+            - name: P90_UI_CAP_MIN
+              value: "60"
+            - name: MODEL_VERSION
+              value: "2025-01-15_p50p90_v2"
+            - name: FEATURE_VERSION
+              value: "feats_39_behavioral_v2"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 3
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: alert-eta-service
+  namespace: ml
+spec:
+  type: NodePort
+  selector:
+    app: alert-eta-service
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+      nodePort: 30080
+
+
+
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: alert-eta-service
+#   namespace: ml
+# spec:
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       app: alert-eta-service
+#   template:
+#     metadata:
+#       labels:
+#         app: alert-eta-service
+#     spec:
+#       containers:
+#         - name: api
+#           image: alert-eta-service:v2
+#           imagePullPolicy: IfNotPresent
+#           ports:
+#             - containerPort: 8080
+#           env:
+#             - name: MODEL_DIR
+#               value: "/models"
+#             - name: TYPE_CONF_THRESHOLD
+#               value: "0.6"
+#             - name: P90_UI_CAP_MIN
+#               value: "60"
+#             - name: MODEL_VERSION
+#               value: "2025-01-15_p50p90_v2"
+#             - name: FEATURE_VERSION
+#               value: "feats_39_behavioral_v2"
+#           readinessProbe:
+#             httpGet:
+#               path: /health
+#               port: 8080
+#             initialDelaySeconds: 3
+#             periodSeconds: 5
+#           livenessProbe:
+#             httpGet:
+#               path: /health
+#               port: 8080
+#             initialDelaySeconds: 5
+#             periodSeconds: 10
+#           resources:
+#             requests:
+#               memory: "256Mi"
+#               cpu: "250m"
+#             limits:
+#               memory: "512Mi"
+#               cpu: "500m"
+# ---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: alert-eta-service
+#   namespace: ml
+# spec:
+#   selector:
+#     app: alert-eta-service
+#   ports:
+#     - name: http
+#       port: 8080
+#       targetPort: 8080
+#   type: ClusterIP

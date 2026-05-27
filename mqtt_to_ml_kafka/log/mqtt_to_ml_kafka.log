@@ -1,0 +1,82 @@
+2026-03-06 11:50:16,753 - WARNING - Connected to MQTT Broker
+2026-03-06 11:50:16,753 - WARNING - Subscribed to: status/nhb/assy/#
+2026-03-07 06:18:59,321 - ERROR - Cannot decode payload from status/nhb/assy/ffl-13-1: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-07 16:42:12,430 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: 'utf-8' codec can't decode byte 0xc0 in position 19: invalid start byte
+2026-03-07 17:07:58,204 - WARNING - Connected to MQTT Broker
+2026-03-07 17:07:58,204 - WARNING - Subscribed to: status/nhb/assy/#
+2026-03-08 12:10:59,463 - ERROR - Cannot decode payload from status/nhb/assy/ffl-02-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-08 18:16:14,343 - ERROR - Cannot decode payload from status/nhb/assy/ffl-01-1: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-10 13:50:25,363 - WARNING - Connected to MQTT Broker
+2026-03-10 13:50:25,363 - WARNING - Subscribed to: status/nhb/assy/#
+2026-03-10 15:28:06,350 - ERROR - Cannot decode payload from status/nhb/assy/ffl-17-1: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-11 08:58:24,960 - ERROR - Cannot decode payload from status/nhb/assy/ffl-14-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-12 07:50:47,831 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-1: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-12 15:58:56,131 - ERROR - Cannot decode payload from status/nhb/assy/ffl-06-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-12 21:15:12,271 - ERROR - Cannot decode payload from status/nhb/assy/ffl-04-1: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-13 03:23:19,657 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-14 07:10:53,326 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-15 00:25:11,316 - ERROR - Cannot decode payload from status/nhb/assy/ffl-08-1: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-15 23:46:02,350 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-16 13:10:13,717 - ERROR - Cannot decode payload from status/nhb/assy/ffl-01-1: Invalid control character at: line 1 column 19 (char 18)
+2026-03-16 16:14:28,521 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-17 00:15:54,605 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 16 (char 15)
+2026-03-17 06:55:21,813 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Invalid control character at: line 1 column 19 (char 18)
+2026-03-17 10:49:50,325 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-20 23:00:18,909 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-21 01:25:23,502 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-21 06:16:49,448 - ERROR - Cannot decode payload from status/nhb/assy/ffl-03-2: Extra data: line 1 column 17 (char 16)
+2026-03-21 19:48:01,584 - ERROR - Cannot decode payload from status/nhb/assy/ffl-11-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-22 14:00:35,338 - ERROR - Cannot decode payload from status/nhb/assy/ffl-12-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-22 20:40:53,911 - ERROR - Cannot decode payload from status/nhb/assy/ffl-06-2: Expecting ',' delimiter: line 1 column 16 (char 15)
+2026-03-22 20:51:05,543 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Invalid control character at: line 1 column 19 (char 18)
+2026-03-23 05:56:48,184 - ERROR - Cannot decode payload from status/nhb/assy/ffl-14-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-23 07:37:04,256 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-24 17:58:16,540 - ERROR - Cannot decode payload from status/nhb/assy/ffl-11-1: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-25 06:13:58,505 - ERROR - Cannot decode payload from status/nhb/assy/ffl-02-1: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-26 19:39:44,667 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-27 10:39:41,427 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: 'utf-8' codec can't decode byte 0xc0 in position 19: invalid start byte
+2026-03-28 03:39:59,554 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-03-28 16:59:37,175 - ERROR - Cannot decode payload from status/nhb/assy/ffl-06-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-30 03:53:20,841 - ERROR - Cannot decode payload from status/nhb/assy/ffl-05-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-30 22:18:25,196 - ERROR - Cannot decode payload from status/nhb/assy/ffl-02-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-03-31 03:31:53,481 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Invalid control character at: line 1 column 19 (char 18)
+2026-03-31 17:14:56,839 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: 'utf-8' codec can't decode byte 0xc0 in position 19: invalid start byte
+2026-04-01 08:39:04,991 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-04-03 02:15:31,684 - ERROR - Cannot decode payload from status/nhb/assy/ffl-02-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-04-03 09:50:04,796 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Invalid control character at: line 1 column 19 (char 18)
+2026-04-03 12:56:57,718 - ERROR - Cannot decode payload from status/nhb/assy/ffl-06-2: Expecting ',' delimiter: line 1 column 16 (char 15)
+2026-04-04 14:43:57,806 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-04-05 23:30:32,183 - ERROR - Cannot decode payload from status/nhb/assy/ffl-06-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-04-08 08:14:06,022 - ERROR - Cannot decode payload from status/nhb/assy/ffl-15-1: Invalid control character at: line 1 column 19 (char 18)
+2026-04-08 20:05:28,712 - ERROR - Cannot decode payload from status/nhb/assy/ffl-08-2: Expecting ',' delimiter: line 1 column 16 (char 15)
+2026-04-10 14:48:51,747 - ERROR - Cannot decode payload from status/nhb/assy/ffl-08-2: Expecting ',' delimiter: line 1 column 21 (char 20)
+2026-04-11 04:07:08,318 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 16 (char 15)
+2026-04-11 06:24:37,319 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: Expecting ',' delimiter: line 1 column 16 (char 15)
+2026-04-12 01:59:48,917 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: 'utf-8' codec can't decode byte 0xc0 in position 19: invalid start byte
+2026-04-16 07:13:56,361 - ERROR - Cannot decode payload from status/nhb/assy/ffl-14-2: Expecting ',' delimiter: line 1 column 20 (char 19)
+2026-04-17 04:58:18,073 - ERROR - Cannot decode payload from status/nhb/assy/ffl-07-2: 'utf-8' codec can't decode byte 0xc0 in position 19: invalid start byte
+2026-04-17 10:59:17,641 - WARNING - [LOST HEARTBEAT FOR 120 SECONDS, GOING TO CLOSE CONNECTION]
+2026-04-17 10:59:17,641 - ERROR - Disconnected from MQTT Broker
+2026-04-17 10:59:17,641 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 10:59:27,651 - WARNING - [CAN'T RECONNECT] 1
+2026-04-17 10:59:27,652 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 10:59:37,659 - WARNING - [CAN'T RECONNECT] 2
+2026-04-17 10:59:37,659 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 10:59:47,669 - WARNING - [CAN'T RECONNECT] 3
+2026-04-17 10:59:47,669 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 10:59:57,679 - WARNING - [CAN'T RECONNECT] 4
+2026-04-17 10:59:57,679 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 11:00:07,690 - WARNING - [CAN'T RECONNECT] 5
+2026-04-17 11:00:07,690 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 11:00:17,699 - WARNING - [CAN'T RECONNECT] 6
+2026-04-17 11:00:17,700 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 11:00:27,710 - WARNING - [CAN'T RECONNECT] 7
+2026-04-17 11:00:27,710 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 11:00:37,721 - WARNING - [CAN'T RECONNECT] 8
+2026-04-17 11:00:37,721 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 11:00:47,731 - WARNING - [CAN'T RECONNECT] 9
+2026-04-17 11:00:47,731 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 11:00:57,741 - WARNING - [CAN'T RECONNECT] 10
+2026-04-17 11:00:57,741 - WARNING - [TRYING WRITE TO CLOSED SOCKET]
+2026-04-17 11:01:07,751 - WARNING - [CAN'T RECONNECT] 11
+2026-04-17 11:01:07,751 - ERROR - [DISCONNECTED] max number of failed connection attempts achieved

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  pred_logger:
+    image: mic/pred_logger:1.0.0
+    container_name: pred_logger
+    network_mode: host
+    environment:
+      - KAFKA_BOOTSTRAP=localhost:9092
+      - KAFKA_TOPIC=ml.pred.alert.eta
+      - KAFKA_GROUP_ID=pred-logger
+      - OUTPUT_DIR=/data/predictions
+      - FLUSH_EVERY=1000
+      - FLUSH_SECS=60
+      - TZ=Asia/Bangkok
+    volumes:
+      - /home/micml/Documents/TestML/predictions:/data/predictions
+    restart: always
