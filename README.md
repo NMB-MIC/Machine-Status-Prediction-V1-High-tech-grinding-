@@ -1,4 +1,4 @@
-![image alt] (https://github.com/NMB-MIC/Machine-Status-Prediction-V1-High-tech-grinding-/blob/5ff91f2d788bf9905b546de7f4bf27b4d82e5c19/ML_Pred_SA.png)
+![image alt](https://github.com/NMB-MIC/Machine-Status-Prediction-V1-High-tech-grinding-/blob/5ff91f2d788bf9905b546de7f4bf27b4d82e5c19/ML_Pred_SA.png)
 
 The architecture forms a real-time predictive pipeline that ingests industrial machine status updates, dynamically engineers temporal features, evaluates machine behavior using LightGBM machine learning models, and delivers actionable ETA alerts to operators.
 
@@ -475,19 +475,25 @@ Machine
 
 ```text
 .
-├── mqtt_to_ml_kafka.py
-├── replay.py
+├── mqtt_to_ml_kafka/
+│   └── mqtt_to_ml_kafka.py
+├── replay/
+│   └── replay.py
 ├── flink/
 │   └── job.py
 ├── service/
 │   └── app.py
+├── service/model/
+│   └── app.py
+│   └── artifacts_phase4.pkl
+│   └── lgbm_quantile_p50_final.pkl
+│   └── lgbm_quantile_p90_final.pkl
+│   └── lgbm_next_type.pkl
 ├── dashboard/
 │   └── app.py
-├── pred_logger.py
-├── artifacts_phase4.pkl
-├── lgbm_quantile_p50_final.pkl
-├── lgbm_quantile_p90_final.pkl
-└── lgbm_next_type.pkl
+├── Predictions/
+│   └── pred_logger.py
+
 ```
 
 ---
