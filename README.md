@@ -483,8 +483,7 @@ Machine
 │   └── job.py
 ├── service/
 │   └── app.py
-├── service/model/
-│   └── app.py
+├── service/models/
 │   └── artifacts_phase4.pkl
 │   └── lgbm_quantile_p50_final.pkl
 │   └── lgbm_quantile_p90_final.pkl
